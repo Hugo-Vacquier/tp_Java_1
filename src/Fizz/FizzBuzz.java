@@ -1,7 +1,7 @@
 package Fizz;
 
 public class FizzBuzz {
-	/*public static String fizzBuzz(int number) {
+	public static String fizzBuzz(int number) {
         if (number % 3 == 0 && number % 5 == 0) {
             return "FizzBuzz";
         } else if (number % 3 == 0) {
@@ -11,9 +11,9 @@ public class FizzBuzz {
         } else {
             return Integer.toString(number);
         }
-    }*/
+    }
 	
-	public static String fizzBuzz(int num) {
+	public static String fizzBuzz2(int num) {
 		for (int i = 0; i<num; i++) {
 			if (num % 3 == 0 && num % 5 == 0) {
 	            return "FizzBuzz";
