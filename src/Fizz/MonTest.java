@@ -19,6 +19,11 @@ public class MonTest {
 	
 	@Test 
 	public void test2() {
-		Assert.assertEquals(FizzBuzz.fizzBuzz(95), "FizzBuzz");
+		Assert.assertEquals(FizzBuzz.fizzBuzz(95), "Buzz");
+	}
+	
+	@Test 
+	public void test3() {
+		Assert.assertEquals(FizzBuzz.fizzBuzz(15), "FizzBuzz");
 	}
 }
